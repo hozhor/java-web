@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_1479796864724">
+
+	<servlet id="Servlet_1480140193355">
+		<servlet-name>ListUserServlet</servlet-name>
+		<servlet-class>com.web.servlet.ListUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479819897850">
+		<servlet-name>ListUserServlet</servlet-name>
+		<url-pattern>/user/list.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet id="Servlet_1480140193149">
+		<servlet-name>AddUserServlet</servlet-name>
+		<servlet-class>com.web.servlet.AddUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479819897880">
+		<servlet-name>AddUserServlet</servlet-name>
+		<url-pattern>/user/add.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet id="Servlet_1480140193694">
+		<servlet-name>UpdateUserServlet</servlet-name>
+		<servlet-class>com.web.servlet.UpdateUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479819897952">
+		<servlet-name>UpdateUserServlet</servlet-name>
+		<url-pattern>/user/update.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet id="Servlet_1480140193249">
+		<servlet-name>DeleteUserServlet</servlet-name>
+		<servlet-class>com.web.servlet.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479819897962">
+		<servlet-name>DeleteUserServlet</servlet-name>
+		<url-pattern>/user/delete.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193291">
+		<servlet-name>ListStuInfomation</servlet-name>
+		<servlet-class>com.web.servlet.ListStuInfomation</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479885627112">
+		<servlet-name>ListStuInfomation</servlet-name>
+		<url-pattern>/admin/adminStulist.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet id="Servlet_1480140192880">
+		<servlet-name>AddStuInforServlet</servlet-name>
+		<servlet-class>com.web.servlet.AddStuInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479885627161">
+		<servlet-name>AddStuInforServlet</servlet-name>
+		<url-pattern>/admin/adminAddStuInformation.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193652">
+		<servlet-name>UpdateStuInforServlet</servlet-name>
+		<servlet-class>com.web.servlet.UpdateStuInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479885627267">
+		<servlet-name>UpdateStuInforServlet</servlet-name>
+		<url-pattern>/admin/adminUpdateStuInform.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet id="Servlet_1480140193191">
+		<servlet-name>DeleteStuInforServlet</servlet-name>
+		<servlet-class>com.web.servlet.DeleteStuInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479899015449">
+		<servlet-name>DeleteStuInforServlet</servlet-name>
+		<url-pattern>/admin/adminDeleteStuInform.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193317">
+		<servlet-name>ListTeaInformation</servlet-name>
+		<servlet-class>com.web.servlet.ListTeaInformation</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479899015504">
+		<servlet-name>ListTeaInformation</servlet-name>
+		<url-pattern>/admin/adminTealist.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet id="Servlet_1480140193112">
+		<servlet-name>AddTeaInforServlet</servlet-name>
+		<servlet-class>com.web.servlet.AddTeaInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479899015558">
+		<servlet-name>AddTeaInforServlet</servlet-name>
+		<url-pattern>/admin/adminAddTeaInformation.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193668">
+		<servlet-name>UpdateTeaInforServlet</servlet-name>
+		<servlet-class>com.web.servlet.UpdateTeaInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479899015567">
+		<servlet-name>UpdateTeaInforServlet</servlet-name>
+		<url-pattern>/admin/adminUpdateTeaInform.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet id="Servlet_1480140193213">
+		<servlet-name>DeleteTeaInformation</servlet-name>
+		<servlet-class>com.web.servlet.DeleteTeaInformation</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479899015576">
+		<servlet-name>DeleteTeaInformation</servlet-name>
+		<url-pattern>/admin/adminDeleteTeaInform.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193381">
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.web.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479899015586">
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login1.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193617">
+		<servlet-name>UpdateSelfStuInform</servlet-name>
+		<servlet-class>com.web.servlet.UpdateSelfStuInform</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479980505716">
+		<servlet-name>UpdateSelfStuInform</servlet-name>
+		<url-pattern>/student/studentUpdateInfom.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193514">
+		<servlet-name>ShowCourse</servlet-name>
+		<servlet-class>com.web.servlet.ShowCourse</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479980505783">
+		<servlet-name>ShowCourse</servlet-name>
+		<url-pattern>/student/showcourse.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193169">
+		<servlet-name>CourseDetail</servlet-name>
+		<servlet-class>com.web.servlet.CourseDetail</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479980505893">
+		<servlet-name>CourseDetail</servlet-name>
+		<url-pattern>/student/coursedetail.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193573">
+		<servlet-name>TakeCourse</servlet-name>
+		<servlet-class>com.web.servlet.TakeCourse</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1479980505906">
+		<servlet-name>TakeCourse</servlet-name>
+		<url-pattern>/student/takecourse.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193406">
+		<servlet-name>PersonSC</servlet-name>
+		<servlet-class>com.web.servlet.PersonSC</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1480000461509">
+		<servlet-name>PersonSC</servlet-name>
+		<url-pattern>/student/personsc.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193431">
+		<servlet-name>SearchScore</servlet-name>
+		<servlet-class>com.web.servlet.SearchScore</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1480000461565">
+		<servlet-name>SearchScore</servlet-name>
+		<url-pattern>/student/searchscore.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193681">
+		<servlet-name>UpdateTeaSelf</servlet-name>
+		<servlet-class>com.web.servlet.UpdateTeaSelf</servlet-class>
+	</servlet>
+	<servlet-mapping id="ServletMapping_1480000461617">
+		<servlet-name>UpdateTeaSelf</servlet-name>
+		<url-pattern>/teacher/teacherUpdateInfom.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193535">
+		<servlet-name>ShowStudentCourse</servlet-name>
+		<servlet-class>com.web.servlet.ShowStudentCourse</servlet-class>
+	</servlet>
+	<servlet-mapping >
+		<servlet-name>ShowStudentCourse</servlet-name>
+		<url-pattern>/teacher/showstudentcourse.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet id="Servlet_1480140193597">
+		<servlet-name>TeacourseDetail</servlet-name>
+		<servlet-class>com.web.servlet.TeacourseDetail</servlet-class>
+	</servlet>
+	<servlet-mapping >
+		<servlet-name>TeacourseDetail</servlet-name>
+		<url-pattern>/teacher/teacoursedetail.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet id="Servlet_1480140193472">
+		<servlet-name>Selectcourse</servlet-name>
+		<servlet-class>com.web.servlet.Selectcourse</servlet-class>
+	</servlet>
+	<servlet-mapping >
+		<servlet-name>Selectcourse</servlet-name>
+		<url-pattern>/teacher/selectcourse.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet id="Servlet_1480140193271">
+		<servlet-name>InputScore</servlet-name>
+		<servlet-class>com.web.servlet.InputScore</servlet-class>
+	</servlet>
+	<servlet-mapping >
+		<servlet-name>InputScore</servlet-name>
+		<url-pattern>/teacher/inputscore.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet >
+		<servlet-name>ListCourse</servlet-name>
+		<servlet-class>com.web.servlet.ListCourse</servlet-class>
+	</servlet>
+	<servlet-mapping >
+		<servlet-name>ListCourse</servlet-name>
+		<url-pattern>/admin/adminCourse.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet >
+		<servlet-name>AddCouInforServlet</servlet-name>
+		<servlet-class>com.web.servlet.AddCouInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping >
+		<servlet-name>AddCouInforServlet</servlet-name>
+		<url-pattern>/admin/adminAddcourse.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>login1.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
